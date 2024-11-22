@@ -98,7 +98,6 @@
 
   @media (width >= 1024px) {
     inline-size: 50%;
-    justify-self: end;
   }
 }
 
