@@ -9,7 +9,8 @@
   --accent-color: #FF8DCB;
   --bg-color: #FFF1F7;
   --content-color: #353430;
-  --menu-btn-color: #353430;
+  --decor-color: #353430;
+  --menu-color: #353430;
   --bg-image: url("../images/cover-image-light.png");
   --rec-visible: none;
 }
@@ -20,7 +21,8 @@
     --accent-color: #FF8DCB;
     --bg-color: #FFF1F7;
     --content-color: #353430;
-    --menu-btn-color: #353430;
+    --decor-color: #353430;
+    --menu-color: #353430;
     --bg-image: url("../images/cover-image-light.png");
     --rec-visible: none;
   }
