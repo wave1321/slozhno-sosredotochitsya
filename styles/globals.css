@@ -1,4 +1,4 @@
-/* Глобальные стили для проекта, их можно дополнять и менять по желанию */
+/* Глобальные стили для проекта*/
 
 *,
 *::before,
@@ -10,6 +10,13 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  min-block-size: 100%;
+  display: block;
+  border: none;
+  outline: none;
 }
 
 h1,
@@ -20,6 +27,11 @@ h5,
 h6,
 p {
   margin: 0;
+  font-size: inherit;
+}
+
+h5 {
+  font-weight: lighter;
 }
 
 ul {
