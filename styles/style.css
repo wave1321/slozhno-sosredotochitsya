@@ -90,6 +90,7 @@
 .header__title {
   align-self: center;
   inline-size: 100%;
+  font-weight: bold;
 
   @media (width >= 768px) {
     inline-size: 364px;
@@ -98,10 +99,12 @@
 
   @media (width >= 1024px) {
     inline-size: 50%;
+    margin-block-start: 10px;
   }
 }
 
 .title-decor {
+  font-weight: bold;
   color: var(--decor-color);
   background-color: var(--accent-color);
 }
@@ -129,7 +132,7 @@
 
 /*ПОВЕДЕНИЕ КНОПОК*/
 .header__theme-menu-button {
-  border: none;
+  border: 1px transparent solid;
   background-color: transparent;
   text-transform: lowercase;
   text-align: center;
@@ -140,7 +143,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px var(---menu-color) solid;
+  outline: 1px var(--menu-color) solid;
 }
 
 .header__theme-menu-button:focus {
@@ -178,6 +181,9 @@
   @media (width >= 768px) {
     grid-template-columns: 1fr 2fr;
   }
+  @media (width >= 1024px) {
+    gap: 12px;
+  }
 }
 
 .content__list {
@@ -186,8 +192,16 @@
   gap: 20px;
 }
 
+.content__title {
+  color: var(--menu-color);
+}
+
 .gallery-section {
   gap: 10px;
+}
+
+.condition-section__list {
+  gap: var(--section-gap);
 }
 
 @media (width >= 768px) {
@@ -205,6 +219,12 @@
   .condition-section__list {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+.content__solution-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .card {
