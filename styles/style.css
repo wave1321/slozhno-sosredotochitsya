@@ -219,6 +219,10 @@
   .condition-section__list {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .condition-section {
+    gap: 20px;
+  }
 }
 
 .content__solution-section {
