@@ -143,7 +143,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px var(--menu-color) solid;
+  outline: 1px var(--menu-t-color) solid;
 }
 
 .header__theme-menu-button:focus {

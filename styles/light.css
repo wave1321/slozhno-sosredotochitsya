@@ -11,6 +11,7 @@
   --content-color: #353430;
   --decor-color: #353430;
   --menu-color: #353430;
+  --menu-t-color: #35343060;
   --bg-image: url("../images/cover-image-light.png");
   --rec-visible: none;
 }
@@ -23,6 +24,7 @@
     --content-color: #353430;
     --decor-color: #353430;
     --menu-color: #353430;
+    --menu-t-color: #35343060;
     --bg-image: url("../images/cover-image-light.png");
     --rec-visible: none;
   }
